@@ -24,6 +24,6 @@ jobs:
         uses: aws-actions/aws-cloudformation-github-deploy@v1.2.0
         with:
           name: data-platform-stack
-          template: cft.yml
+          template: cft.yaml
           capabilities: CAPABILITY_IAM 
           no-fail-on-empty-changeset: true
