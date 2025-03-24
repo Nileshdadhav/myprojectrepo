@@ -23,7 +23,7 @@ jobs:
       - name: Deploy CloudFormation Stack
         uses: aws-actions/aws-cloudformation-github-deploy@v1.2.0
         with:
-          name: acies-data-platform-stack
-          template: acies_data_platform_cft.yml
+          name: data-platform-stack
+          template: cft.yml
           capabilities: CAPABILITY_IAM 
           no-fail-on-empty-changeset: true
