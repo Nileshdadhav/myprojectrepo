@@ -1,0 +1,6 @@
+Resources:
+  MasterDataSQSQueue:
+    Type: AWS::SQS::Queue
+    Properties:
+      QueueName: data_consumer_queue
+      VisibilityTimeout: 60
